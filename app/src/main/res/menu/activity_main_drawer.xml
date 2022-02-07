@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_syllabus"
+            android:icon="@drawable/ic_syllabus"
+            android:title="Syllabus" />
+        <item
+            android:id="@+id/nav_shortcuts"
+            android:icon="@drawable/ic_syllabus"
+            android:title="Shortcut Keys" />
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/nav_share_app"
+                android:icon="@drawable/ic_syllabus"
+                android:title="Share App" />
+            <item
+                android:id="@+id/nav_rate_app"
+                android:icon="@drawable/ic_syllabus"
+                android:title="Rate App" />
+            <item
+                android:id="@+id/nav_app_privacy_policy"
+                android:icon="@drawable/ic_syllabus"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_syllabus"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
